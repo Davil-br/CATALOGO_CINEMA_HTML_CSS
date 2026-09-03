@@ -1,9 +1,16 @@
 body {
-    background-color: rgb(27, 2, 9);
+    
+    background: linear-gradient(
+        #380606,
+        #640707
+    );
+
+    
 }
 
 .titulo {
-    color: rgb(245, 127, 186);
+    color: azure;
+    
 }
 
 .principal {
@@ -12,10 +19,109 @@ body {
     text-align: center;
 }
 
+
 .imagem {
     padding: 15px;
     margin-left: 300px;
     margin-top:150px ;
     border-radius: 30px;
     border: 1px;
+}
+
+.ver_catalogo:hover {
+   cursor: pointer;
+   
+}
+
+.menu{
+    display: flex;
+    color: azure;
+    padding-left: 800px;
+    gap: 60px;
+}
+.menu:hover {
+    cursor: pointer;
+}
+
+ul {
+    cursor: pointer;
+}
+
+#homen_aranha {
+    gap: 70px;
+}
+
+.filmes_de_hoje {
+    color: azure;
+}
+
+#ingresso_doomsday {
+    border: 1px;
+    border-radius: 30px;
+    color:rgb(243, 182, 182);
+    background-color: #1a0f0f;
+    cursor:pointer;
+}
+
+#novo_dia{
+margin-left: auto;
+margin-right: auto;
+}
+
+.doomsday {
+    padding: 40px;
+    border: solid #ccc;
+    box-shadow: 0px 4px 8px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 570px
+}
+
+.novo_dia {
+    padding: 40px;
+    border: solid #ccc;
+    box-shadow: 0px 4px 8px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 570px
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding:15px;
+}
+
+#ingresso_UmNovoDia {
+        border: 1px;
+        border-radius: 30px;
+        color:rgb(243, 182, 182);
+        background-color: #1a0f0f;
+        cursor:pointer;
+}
+
+.odssey {
+    padding: 40px;
+    border: solid #ccc;
+    box-shadow: 0px 4px 8px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 570px;
+    
+
+}
+
+#ingresso_odsseia {
+    border: 1px;
+        border-radius: 30px;
+        color:rgb(243, 182, 182);
+        background-color: #1a0f0f;
+        cursor:pointer;
+}
+
+#A_odsseia {
+    width: 480px;
+    height: 700px;
+
 }
